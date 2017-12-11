@@ -1,0 +1,89 @@
+hr.hrscifi {border: 1!important; height: 4px!important; text-align: center; background-image: linear-gradient(left, #fff, #000, #fff)!important;}
+
+hr.dootedd{border: 0; height: 0px; border-top: 1px dashed black; border-bottom: 1px dashed #555; margin: 40px;}
+
+hr.maivebb{border: 0; height: 0; text-align: center;font-size: 24px; line-height: 24px; text-align: center; margin: 40px;}
+hr.maivebb:after {content:"\25ca\00a0\25ca\00a0\25ca\00a0\25ca"; position: relative; top: -12px; color: gray;}
+
+.text-danger {
+    color: #a94442 !important;
+}
+
+.fluid-video {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    width: 100%;
+    margin: 15px 0px
+}
+.fluid-video iframe, .fluid-video embed, .fluid-video object {
+    height: 100% !important;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100% !important;
+}
+
+.text-danger{ color:#a94442!important;}
+
+.navbar-nav > li > a {
+    font-size: 14px;
+}
+
+.navbar-custom .navbar-nav {
+    letter-spacing: 0px;
+}
+
+#testimonios{ background-color: #E0F2F7;  }
+#tratamientos{ background-color: #EFFBF2;  }
+
+.star-acu1:after {
+  background-color: #E0F2F7!important;
+}
+
+/*.shw6{
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	border:none;
+	background-image:url(../img/sombra6.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center top;
+}*/
+
+TD.txtboxit { 
+	border:2px solid #090;
+        padding: 10px;
+        background-color: #FFF;
+}
+TD.txtboxit2 { 
+	border:2px solid #090;
+	border-left:none;
+        padding: 10px;
+        background-color: #FFF;
+}
+
+
+.man-desktop { display:"";}
+.man-movil {display:none;}
+
+@media (max-width: 767px) {
+  section h2 {
+    font-size: 24px;
+    margin: 0;
+}
+}
+
+@media( max-width:450px){
+            
+.man-desktop { display:none; }
+
+.man-movil {display:block;
+width: auto;
+}
+
+
+}
