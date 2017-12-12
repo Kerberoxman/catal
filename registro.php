@@ -48,10 +48,10 @@
 	    	echo '<script language="javascript">
                         alert ("Ya hay un usuario registrado con este nombre. Por favor escoja otro");
                     </script>';
-            //header("location:registro.php");
+            
 	    }else{
 			$sql1 = mysql_query("INSERT INTO usuarios VALUES ('','$usuario','$contra','$correo','$nombre','$apellidos','$edad','$sexo','$direccion',now())");
-			mysql_num_rows($sql1) or die ("Error: " . mysql_error());;
+			mysql_num_rows($sql1) or die ("Error: " . mysql_error());
 			header("location:login.php");
 		}	
 	}
