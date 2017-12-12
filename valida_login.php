@@ -9,7 +9,7 @@
 
 <?php
 try{
-	$base = new PDO ("mysql:host=localhost; dbname=acupuntura", "root", "");
+	$base = new PDO ("mysql:host=sql12.freesqldatabase.com; dbname=sql12210455", "sql12210455", "Hv7cUhnNTq");
 	
 	$base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	
